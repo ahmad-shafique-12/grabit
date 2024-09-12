@@ -121,7 +121,7 @@ const WishList = () => {
                 >
                   <RxCross2 />
                 </p>
-                <img className="md:w-[150px] w-[200px]" src={e.image[0]} />
+                <Image width={100} height={100} className="md:w-[150px] w-[200px]" src={e.image[0]} alt='' />
                 <p className="text-[20px]  font-medium">{e.name}</p>
                 <p className="text-[20px]  font-medium">${e.price}.00</p>
                 <div className=" w-max h-max  gap-2  flex ">

@@ -121,7 +121,7 @@ const Checkout = () => {
                 >
                   <RxCross2 />
                 </p>
-                <img className="md:w-[150px] w-[200px]" src={e.image[0]} />
+                <Image className="md:w-[150px] w-[200px]" src={e.image[0]} alt=''/>
                 <p className="text-[20px]  font-medium">{e.name}</p>
                 <p className="text-[20px]  font-medium">${e.price}.00</p>
                 <div className=" w-max h-max  gap-2  flex ">

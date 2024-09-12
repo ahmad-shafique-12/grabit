@@ -4,7 +4,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { FaWhatsapp, FaRegUser, FaRegHeart, FaBars } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { useDispatch, useSelector } from 'react-redux';
-import { closeSidebar, sidebarClose, sidebarOpen } from '@/app/Redux/Sidebar1';
+import { closeSidebar, sidebarOpen } from '@/app/Redux/Sidebar1';
 import { DeCrement, InCrement, RemoveIdx } from '@/app/Redux/Cartslice';
 import Image from 'next/image';
 import { RxCross2 } from "react-icons/rx";
@@ -81,7 +81,7 @@ const Navbar1 = () => {
                             <p className='cursor-pointer'>+92 3414162105</p>
                         </div>
                     </div>
-                    <p className='text-[13px] font-[400] cursor-pointer lg:block hidden '>World's Fastest Online Shopping Destination</p>
+                    <p className='text-[13px] font-[400] cursor-pointer lg:block hidden '>World&apos;s Fastest Online Shopping Destination</p>
                     <div className='lg:flex gap-3 text-[13px] font-[400] hidden '>
                         <p>Help?</p>
                         <p>Track Order?</p>
@@ -189,7 +189,7 @@ const Navbar1 = () => {
                         <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                             Home
-                            <label for="menu-1" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                            <label htmlFor="menu-1" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -218,7 +218,7 @@ const Navbar1 = () => {
                         <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                             Categories
-                            <label for="menu-2" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                            <label htmlFor="menu-2" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -251,7 +251,7 @@ const Navbar1 = () => {
                         <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                             Products
-                            <label for="menu-3" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                            <label htmlFor="menu-3" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -284,7 +284,7 @@ const Navbar1 = () => {
                         <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                             Blog
-                            <label for="menu-4" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                            <label htmlFor="menu-4" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -326,7 +326,7 @@ const Navbar1 = () => {
                         <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                             Pages
-                            <label for="menu-5" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                            <label htmlFor="menu-5" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />

@@ -39,7 +39,7 @@ const Slider3 = () => {
   }, []);
 
   const [model,setModele]=useState({})
-  const IdxGEt=(e:any,i:any)=>{
+  const IdxGEt=(e:any)=>{
     setModele(e)
     console.log(model)
    //  ModelOpen();
@@ -98,15 +98,15 @@ const Slider3 = () => {
           Day Of The <span className='ab'>Deal</span>
         </h1>
         <p className='text-[13.5px] font-[300] mt-2 text-center'>
-          Don't wait. The time will never be just right
+          Don&apos;t wait. The time will never be just right
         </p>
       </div>
 
       <div className="slider-container w-full mt-5">
         <Slider {...settings}>
           {filterdata.map((e: any, i: any) => (
-            <div className="p-2">
-              <div key={i} className="  pb-5 border">
+            <div key={i}  className="p-2">
+              <div className="  pb-5 border">
                 <div>
                   <div className="w-full border relative overflow-hidden group h-[180px] object-cover transition-all duration-300">
                     <Image

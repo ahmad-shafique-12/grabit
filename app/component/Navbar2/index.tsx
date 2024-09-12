@@ -7,7 +7,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import img1 from '../image/logo.png'
 import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
-import { sidebarClose, sidebarOpen } from '@/app/Redux/Sidebar1';
+import { closeSidebar, sidebarOpen } from '@/app/Redux/Sidebar1';
 import { searchValue } from '@/app/Redux/Cartslice';
 import Link from 'next/link';
 
@@ -26,7 +26,7 @@ const Navbar2 = () => {
     }
 
     const closebar = () => {
-        dispatch(sidebarClose())
+        dispatch(closeSidebar())
         console.log("working")
     }
 

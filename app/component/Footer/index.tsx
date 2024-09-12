@@ -141,7 +141,7 @@ const Footer = () => {
                             <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                                 Category
-                                <label for="menu-6" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                                <label htmlFor="menu-6" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -181,7 +181,7 @@ const Footer = () => {
                             <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                                 Company
-                                <label for="menu-7" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                                <label htmlFor="menu-7" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -223,7 +223,7 @@ const Footer = () => {
                             <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                                 Account
-                                <label for="menu-8" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                                <label htmlFor="menu-8" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -265,7 +265,7 @@ const Footer = () => {
                             <div className="relative m-2 flex items-center rounded-xl border-b-4 border py-3 pl-5 text-sm text-gray-500">
 
                                 Contact US
-                                <label for="menu-9" className="absolute inset-0 h-full w-full cursor-pointer"></label>
+                                <label htmlFor="menu-9" className="absolute inset-0 h-full w-full cursor-pointer"></label>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" className="peer-checked:rotate-180 absolute right-0 top-6 mr-5 ml-auto h-4 text-gray-500 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />

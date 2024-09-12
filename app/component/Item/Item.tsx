@@ -39,7 +39,7 @@ const Item = () => {
   }
 
   const [model,setModele]=useState({})
- const IdxGEt=(e:any,i:any)=>{
+ const IdxGEt=(e:any)=>{
    setModele(e)
    console.log(model)
   //  ModelOpen();
@@ -61,7 +61,7 @@ const Item = () => {
             Day Of The <span className='ab'>Deal</span>
           </h1>
             <p className='text-[13.5px] font-[300] mt-2 '>
-              Don't wait. The time will never be just right
+              Don&apos;t wait. The time will never be just right
             </p>
           </div>
 

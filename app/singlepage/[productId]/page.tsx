@@ -18,7 +18,9 @@ import Slider3 from '@/app/component/Slider3'
 import Footer from '@/app/component/Footer'
 
 const SingleProduct = () => {
-
+  
+  const { cart } = useSelector((state: any) => state.Cart);
+  const dispatch = useDispatch();
   const { productId }:any = useParams();
 
   console.log(productId);
@@ -32,8 +34,6 @@ const SingleProduct = () => {
       return <h1>Product Not Found</h1>;
     }
 
-  const { cart } = useSelector((state: any) => state.Cart);
-  const dispatch = useDispatch();
 
   const IncrementValue = (e: any) => {
     dispatch(InCrement(e));

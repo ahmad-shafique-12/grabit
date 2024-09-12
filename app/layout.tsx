@@ -1,4 +1,3 @@
-'use clinet'
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -22,9 +21,6 @@ export default function RootLayout({
         <ReduxLayout>
         {children}
         </ReduxLayout>
-
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
-
         </body>
     </html>
   );

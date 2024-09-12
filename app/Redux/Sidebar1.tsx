@@ -22,7 +22,7 @@ const Sidebar1slice = createSlice({
     state.Model=false
    }
   },
-});
+}); 
 
 export const { sidebarOpen,closeSidebar,ModelOpen,ModelClose } = Sidebar1slice.actions;
 
